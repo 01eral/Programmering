@@ -4,6 +4,7 @@ public class laxav48 {
 
 	public static void main(String[] args) {
 		System.out.println(volume(9));
+		reverse("Alex");
 	}
 	
 	public static double volume(double radius) {
@@ -14,6 +15,20 @@ public class laxav48 {
 		
 		return result;
 	}
+	
+public static void reverse (String str) {
+	
+	for (int i = str.length() - 1; i >= 0; i--) {
+		
+		System.out.print(str.charAt(i));
+		
+	}
+	
+	
+	
+	
+	
+}
 
 	
 }
