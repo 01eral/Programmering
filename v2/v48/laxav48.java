@@ -24,11 +24,15 @@ public static void reverse (String str) {
 		
 	}
 	
+}
+
+
+public static int count(String str, char c) {
 	
-	
-	
+char atPos0 = strChar 
 	
 }
 
 	
 }
+
