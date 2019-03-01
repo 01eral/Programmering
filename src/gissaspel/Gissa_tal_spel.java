@@ -13,7 +13,7 @@ public class Gissa_tal_spel {
 		while (restart) {
 		
 		int answer = (int) (Math.random() * 100);
-		System.out.println("Guess the Number");
+		System.out.println("Guess the Number"); 
 
 		while (!guess) {
 			
@@ -24,7 +24,6 @@ public class Gissa_tal_spel {
 			if (answer == key) {
 				System.out.println("Right guess");
 				guess = true;
-				restart = false;
 			} else {
 				
 				if (key > answer) {
@@ -40,7 +39,16 @@ public class Gissa_tal_spel {
 
 		}
 		
-		System.out.println("Do you want to Restart?");  
+		System.out.println("Do you want to Restart? 1 = yes, 0 = no"); 
+		
+		int startover = keyboard.nextInt();
+		
+		if (startover == 0) {
+			restart = false;
+			
+			
+		}
+		guess = false;
 		
 		
 	}
