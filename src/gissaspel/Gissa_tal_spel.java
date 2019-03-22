@@ -15,6 +15,8 @@ public class Gissa_tal_spel {
 		int answer = (int) (Math.random() * 100);
 		System.out.println("Guess the Number"); 
 
+		
+		
 		while (!guess) {
 			
 			int key = keyboard.nextInt();
@@ -42,7 +44,7 @@ public class Gissa_tal_spel {
 		System.out.println("Do you want to Restart? 1 = yes, 0 = no"); 
 		
 		int startover = keyboard.nextInt();
-		
+		 
 		if (startover == 0) {
 			restart = false;
 			
